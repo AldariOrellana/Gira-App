@@ -12,6 +12,8 @@ install! 'cocoapods',
 target 'Gira' do
   use_expo_modules!
   config = use_native_modules!
+  permissions_path = '../node_modules/react-native-permissions/ios'
+  pod 'Permission-Camera', :path => "#{permissions_path}/Camera"
 
   use_frameworks! :linkage => podfile_properties['ios.useFrameworks'].to_sym if podfile_properties['ios.useFrameworks']
   pod 'RNScreens', :path => '../node_modules/react-native-screens'

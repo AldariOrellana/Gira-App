@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "Gira Intermoda",
-    "slug": "Gira",
+    "slug": "Gira-Intermoda",
     "version": "1.0.8",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -18,8 +18,8 @@
       "assets/*"
     ],
     "ios": {
-      "supportsTablet": true,
-      "bundleIdentifier": "org.name.Gira",
+      "supportsTablet": false,
+      "bundleIdentifier": "com.intermodasa.giraintermodasa",
       "permissions":[
         "NSMicrophoneUsageDescription",
         "NSPhotoLibraryUsageDescription",

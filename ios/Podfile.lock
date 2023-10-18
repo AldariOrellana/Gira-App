@@ -57,6 +57,8 @@ PODS:
     - ReactCommon/turbomodule/core (= 0.70.8)
   - fmt (6.2.1)
   - glog (0.3.5)
+  - Permission-Camera (3.10.0):
+    - RNPermissions
   - RCT-Folly (2021.07.22.00):
     - boost
     - DoubleConversion
@@ -344,6 +346,8 @@ PODS:
     - React-Core
   - RNGestureHandler (2.8.0):
     - React-Core
+  - RNPermissions (3.10.0):
+    - React-Core
   - RNScreens (3.25.0):
     - React-Core
     - React-RCTImage
@@ -376,6 +380,7 @@ DEPENDENCIES:
   - FBLazyVector (from `../node_modules/react-native/Libraries/FBLazyVector`)
   - FBReactNativeSpec (from `../node_modules/react-native/React/FBReactNativeSpec`)
   - glog (from `../node_modules/react-native/third-party-podspecs/glog.podspec`)
+  - Permission-Camera (from `../node_modules/react-native-permissions/ios/Camera`)
   - RCT-Folly (from `../node_modules/react-native/third-party-podspecs/RCT-Folly.podspec`)
   - RCTRequired (from `../node_modules/react-native/Libraries/RCTRequired`)
   - RCTTypeSafety (from `../node_modules/react-native/Libraries/TypeSafety`)
@@ -407,6 +412,7 @@ DEPENDENCIES:
   - "RNCAsyncStorage (from `../node_modules/@react-native-async-storage/async-storage`)"
   - "RNDateTimePicker (from `../node_modules/@react-native-community/datetimepicker`)"
   - RNGestureHandler (from `../node_modules/react-native-gesture-handler`)
+  - RNPermissions (from `../node_modules/react-native-permissions`)
   - RNScreens (from `../node_modules/react-native-screens`)
   - RNVectorIcons (from `../node_modules/react-native-vector-icons`)
   - Yoga (from `../node_modules/react-native/ReactCommon/yoga`)
@@ -465,6 +471,8 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native/React/FBReactNativeSpec"
   glog:
     :podspec: "../node_modules/react-native/third-party-podspecs/glog.podspec"
+  Permission-Camera:
+    :path: "../node_modules/react-native-permissions/ios/Camera"
   RCT-Folly:
     :podspec: "../node_modules/react-native/third-party-podspecs/RCT-Folly.podspec"
   RCTRequired:
@@ -525,6 +533,8 @@ EXTERNAL SOURCES:
     :path: "../node_modules/@react-native-community/datetimepicker"
   RNGestureHandler:
     :path: "../node_modules/react-native-gesture-handler"
+  RNPermissions:
+    :path: "../node_modules/react-native-permissions"
   RNScreens:
     :path: "../node_modules/react-native-screens"
   RNVectorIcons:
@@ -559,6 +569,7 @@ SPEC CHECKSUMS:
   FBReactNativeSpec: d8772db98ada3c2daf8f65e2105ada77bf209c02
   fmt: ff9d55029c625d3757ed641535fd4a75fedc7ce9
   glog: 04b94705f318337d7ead9e6d17c019bd9b1f6b1b
+  Permission-Camera: c0988031cf68f80212d38b69c08bced8c7eb43b7
   RCT-Folly: 0080d0a6ebf2577475bda044aa59e2ca1f909cda
   RCTRequired: 35a7977a5a3cb2d3830c3fef7352b7b116115829
   RCTTypeSafety: 259790fb8b16c94e57e0d3d1e2479e69a2b93f50
@@ -589,10 +600,11 @@ SPEC CHECKSUMS:
   RNCAsyncStorage: 09fc8595e6d6f6d5abf16b23a56b257d9c6b7c5b
   RNDateTimePicker: 3f32aa2247836c12618d346113e5e82ea60ddd9c
   RNGestureHandler: 62232ba8f562f7dea5ba1b3383494eb5bf97a4d3
+  RNPermissions: 3acba750d9146af1c33a79c013e02f8b48067acc
   RNScreens: 85d3880b52d34db7b8eeebe2f1a0e807c05e69fa
   RNVectorIcons: fcc2f6cb32f5735b586e66d14103a74ce6ad61f8
   Yoga: d6133108734e69e8c0becc6ba587294b94829687
 
-PODFILE CHECKSUM: 781a820ce978f24e9dab9ac7a5c493ecf2f8da81
+PODFILE CHECKSUM: e9ce9225c32a6d8c027764edb769ce054a36df26
 
 COCOAPODS: 1.13.0
